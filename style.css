@@ -1,0 +1,77 @@
+/* Elemnent Selector */
+body {
+    background-color: #ced4d8;
+}
+h1 {
+    color: #ac6ac7;
+}
+h2 {
+    color: rgb(255, 165, 0);
+}
+li {
+    color: blue;
+}
+p {
+    background-color: gold;
+}
+
+/* Multiples & Attribute Selector */
+input[type=text],[type=email] {
+    border: 5px dotted pink;
+}
+
+/* Class Selector */
+.first {
+    background: #fff;
+}
+
+/* ID Selector */
+#important {
+    border: 3px dashed #0000FF;
+}
+
+/* Decendant Selector */
+div p {
+    font-size: 30px;
+}
+
+/* Element with Attribute Selector */
+input[type=email] {
+    background: #808080;
+}
+
+/* Nth-of-type & Child Selector */
+div:nth-of-type(3) > p {
+    background: hotpink;
+}
+
+div:nth-of-type(3) > p:nth-of-type(2) {
+    border: 7px solid rgb(255, 255, 255)
+}
+
+/* Decendant selector with nth-of-type */
+div:nth-of-type(3) em {
+    font-size: 25px;
+}
+
+/* BONUS */
+input:checked {
+    margin-left: 40px;
+}
+
+label {
+    text-transform: lowercase;
+}
+
+#important {
+    color: lime;
+    font-size: 90px;
+}
+
+h1:hover {
+    color:navy;
+}
+
+a:visited {
+    color:silver;
+}
