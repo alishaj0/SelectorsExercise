@@ -63,7 +63,7 @@ label {
     text-transform: lowercase;
 }
 
-#important {
+#important::first-letter {
     color: lime;
     font-size: 90px;
 }
